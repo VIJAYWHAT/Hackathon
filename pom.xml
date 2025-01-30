@@ -19,7 +19,7 @@
         <maven.compiler.source>23</maven.compiler.source>
         <maven.compiler.target>23</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jsonwebtoken.version>0.11.5</jsonwebtoken.version>
+        <jsonwebtoken.version>0.12.6</jsonwebtoken.version>
     </properties>
 
     <dependencies>
@@ -37,9 +37,8 @@
         <!-- JWT Dependency -->
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
-            <artifactId>jjwt-jackson</artifactId>
+            <artifactId>jjwt</artifactId>
             <version>${jsonwebtoken.version}</version>
-            <scope>runtime</scope>
         </dependency>
 
         <dependency>
